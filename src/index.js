@@ -1,16 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import Malware from './pages/malware'
+import './index.css'
 import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
 
+// page import
+import App from './App';
+import Malware from './pages/malware'
+
+// component import
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Malware />,
+    element: <App />,
+  },
+  {
+    path: "/malware",
+    element: <Malware />
   }
 ]);
 

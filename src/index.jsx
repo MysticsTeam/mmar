@@ -8,7 +8,8 @@ import {
 
 // page import
 import App from './App';
-import Malware from './pages/malware'
+import Malware from './pages/malware';
+import About from './pages/about'
 
 // component import
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/malware",
     element: <Malware />
+  },
+  {
+    path: "/about",
+    element: <About />
   }
 ]);
 

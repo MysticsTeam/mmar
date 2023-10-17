@@ -1,22 +1,22 @@
 [
 	{
-	"name":"EpicStable",
-	"description":[],
+	"name":"KaliStable",
+	"description":"I'm a loser, but I'm the admin of the other 3 guys.",
 	"imagepath":"/img/about/member1.png"
 	},
 	{
 	"name":"Kazuha",
-	"description":[],
+	"description":"Are you a keyboard cause you're my type:)",
 	"imagepath":"/img/about/member2.png"
 	},
 	{
 	"name":"Michael Clyde",
-	"description":[],
+	"description":"Tôi là một người hướng ngoại vào buổi sáng, khá năng động. Và luôn cảm thấy cô đơn vào buổi tối",
 	"imagepath":"/img/about/member4.png"
 	},
 	{
 	"name":"Sunoco",
-	"description":[],
+	"description":"YTB và Rapper tập sự, đẹp trai thanh lịch vô địch cấp vũ trụ.",
 	"imagepath":"/img/about/member3.png"
 	}
 ]

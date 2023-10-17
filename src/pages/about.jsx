@@ -11,7 +11,7 @@ function List(props){
 		<Space wrap size={50} style={{display:'flex', wordWrap:'break-word', flexWrap:'wrap', justifyContent:'center', justifyItems:'center'}}>
 		{aboutjson.map((ml)=> (<Card
 			title={ml.name}
-			style={{width:200, border:'#00A0FA solid 2px'}}
+			style={{width:200, border:'#00A0FA solid 2px', height:450}}
 			cover={<img alt="alt" src={ml.imagepath} height={200}></img>}
 			>
 				<p>{ml.description}</p>
@@ -22,7 +22,7 @@ function List(props){
 
 export default function AboutList() {
 			return(
-				<div>
+				<div style={{textAlign:'center'}}>
 					<TopNav />
 					<h1>About Us</h1>
 					<h3>Team members who contributed in the development of the website</h3>
